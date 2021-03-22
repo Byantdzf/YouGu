@@ -1,0 +1,13 @@
+@mixin images($url){
+    background-image: url($url + ".png");
+    background-size:cover;
+    @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+        background-image: url($url + "@2x.png");
+    }
+    @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3) {
+        background-image: url($url + "@3x.png");
+    }
+}
+@mixin colorA {
+    color:#4086F7;
+}

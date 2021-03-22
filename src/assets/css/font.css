@@ -1,0 +1,16 @@
+@font-face{
+    font-family: alibaba_R;
+    src: url("../font/Alibaba-PuHuiTi-Regular.ttf")
+}
+@font-face{
+    font-family: alibaba_B;
+    src: url("../font/Alibaba-PuHuiTi-Bold.ttf")
+}
+@font-face{
+    font-family: alibaba_M;
+    src: url("../font/Alibaba-PuHuiTi-Medium.ttf")
+}
+@font-face{
+    font-family: alibaba_L;
+    src: url("../font/Alibaba-PuHuiTi-Light.ttf")
+}
